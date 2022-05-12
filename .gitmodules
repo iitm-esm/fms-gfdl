@@ -1,0 +1,6 @@
+[submodule "mkmf"]
+	path = mkmf
+	url = git@github.com:iitm-esm/mkmf.git
+[submodule "FMS"]
+	path = FMS
+	url = git@github.com:iitm-esm/FMS.git
