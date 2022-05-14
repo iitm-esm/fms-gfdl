@@ -6,7 +6,6 @@ MACHINE=pratyush
 COMPILER=intel
 COMPILER_VERSION=16.0
 
-
 . env/env.${MACHINE}_${COMPILER}v${COMPILER_VERSION}
 
 ROOTDIR=$(pwd)
@@ -26,5 +25,5 @@ cd build/${COMPILER}/${COMPILER_VERSION}
 $LIST_PATHS  $FMS_SRC
 
 $MKMF -t ${TEMPLATE} -c "$cppDefs" -p libFMS.a path_names 
-make -j8 OPENMP=Y AVX=Y 32BIT=Y Makefile libFMS.a 
+make -j OPENMP=Y AVX=Y 32BIT=N Makefile libFMS.a 
 
