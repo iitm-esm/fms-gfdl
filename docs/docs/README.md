@@ -7,7 +7,7 @@
     cd gfdl-fms
     ./build.sh
 ```
-This build the FMS library inside `build/{COMPILER}/{COMPILER_VERSION}/` within the `gfdl-fms` directory.
+This builds the FMS library inside `build/{COMPILER}/{COMPILER_VERSION}/` within the `gfdl-fms` directory.
 `COMPILER` and `COMPILER_VERSION` can be changed in `build.sh`.
 
 Currently build is only configured for `Intel` compilers in `Pratyush HPC`.
