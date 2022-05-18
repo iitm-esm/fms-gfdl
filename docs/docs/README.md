@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-    git clone --recursive https://github.com/iitm-esm/gfdl-fms.git
+    git clone --recursive https://github.com/iitm-esm/fms-gfdl.git
     cd gfdl-fms
     ./build.sh
 ```
